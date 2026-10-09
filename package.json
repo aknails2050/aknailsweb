@@ -1,0 +1,12 @@
+{
+  "name": "aknailsweb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AK Nails & Spa static website",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
