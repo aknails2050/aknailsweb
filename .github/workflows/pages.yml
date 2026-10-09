@@ -25,6 +25,6 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: AK_Nails_Website_Source/AK_Nails_Website
+          path: AK_Nails_Website_Source
       - id: deployment
         uses: actions/deploy-pages@v4

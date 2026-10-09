@@ -3,7 +3,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = path.join(__dirname, 'AK_Nails_Website_Source', 'AK_Nails_Website');
+const ROOT = path.join(__dirname, 'AK_Nails_Website_Source');
 const PORT = process.env.PORT || 8000;
 const TYPES = {
   '.html': 'text/html; charset=utf-8',
